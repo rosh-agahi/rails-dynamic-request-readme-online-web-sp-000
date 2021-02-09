@@ -91,3 +91,11 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 21ms (Views: 10.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/posts/1" for 172.91.77.201 at 2021-02-09 17:20:37 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 314ms (Views: 311.8ms | ActiveRecord: 0.0ms)
+
+
