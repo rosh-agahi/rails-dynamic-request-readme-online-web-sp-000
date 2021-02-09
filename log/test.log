@@ -386,3 +386,5 @@ Migrating to CreatePosts (20151230232412)
 Started GET "/posts/1" for 127.0.0.1 at 2021-02-09 17:16:19 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
